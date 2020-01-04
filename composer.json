@@ -1,0 +1,12 @@
+{
+    "name": "fluidtech/spock-datatables",
+    "description": "JQuery DataTables.net API for Laravel 5+",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gaurav Punjabi",
+            "email": "gaurav.bpunjabi@gmail.com"
+        }
+    ],
+    "require": {}
+}
