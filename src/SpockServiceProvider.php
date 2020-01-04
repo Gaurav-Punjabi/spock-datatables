@@ -1,6 +1,6 @@
 <?php
 
-namespace FluidTech\Spock;
+namespace FluidTech\SpockDataTables;
 
 use Illuminate\Support\ServiceProvider;
 
