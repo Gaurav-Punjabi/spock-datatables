@@ -37,7 +37,7 @@ And that's it! Now you can start building out DataTables faster!
 1. Using Eloquent Query Builder
     
     Fetches the and returns the records using the given query.
-    ##### Syntax
+    #### Syntax
     ```php
        $expectedResponse = \FluidTech\SpockDataTables\DataTable::of($query, $list_of_columns)
            ->make();
@@ -47,7 +47,7 @@ And that's it! Now you can start building out DataTables faster!
         * `$list_of_columns` : An list of column names that needs to be displayed. <br> 
         <b>Note</b> : The sequence of columns should be the same as specified on the client side.
         
-    ##### Example
+    #### Example
 
     ```php
     $query = DB::table('users');
