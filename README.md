@@ -34,7 +34,7 @@ Register provider on you `conifg\app.php` file.
 And that's it! Now you can start building out DataTables faster!
 
 ### Documentation
-1. ####Using Eloquent Query Builder
+1. Using Eloquent Query Builder
     
     Fetches the and returns the records using the given query.
     ##### Syntax
