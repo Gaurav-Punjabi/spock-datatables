@@ -6,7 +6,7 @@ A laravel package to handle the server side processing of DataTables jQuery Plug
 ![LICENSE.md](https://badgen.net/badge/Laravel/v5.5+/orange) 
 ![LICENSE.md](https://badgen.net/badge/LICENSE/MIT/purple)
 
-- [Requirements Started](#requirements)
+- [Requirements](#requirements)
 - [Installation](#quick-installation)
 - [Documentation](#documentation)
   - [Eloquent Query Builder](#using-eloquent-query-builder)
