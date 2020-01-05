@@ -42,7 +42,7 @@ And that's it! Now you can start building out DataTables faster!
        $expectedResponse = \FluidTech\SpockDataTables\DataTable::of($query, $list_of_columns)
            ->make();
     ```
-    * <b>Accepts<b>
+    * <b>Accepts</b>
         * `$query` : The base query from which records needs to be fetched.
         * `$list_of_columns` : An list of column names that needs to be displayed. <br> 
         <b>Note</b> : The sequence of columns should be the same as specified on the client side.
