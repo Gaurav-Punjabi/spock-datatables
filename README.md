@@ -58,8 +58,8 @@ And that's it! Now you can start building out DataTables faster!
         ])
         ->make();
     ```
-2. #### Using Fluent Query Builder (Coming Soon)
-3. #### Using Collection (Coming Soon)
+2. Using Fluent Query Builder (Coming Soon)
+3. Using Collection (Coming Soon)
 
 
 ## License
