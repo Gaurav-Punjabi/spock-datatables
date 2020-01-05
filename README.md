@@ -26,6 +26,32 @@ Register provider on you `conifg\app.php` file.
 ``` 
 And that's it! Now you can start building out DataTables faster!
 
+### Guide
+1. Using Eloquent Query Builder
+    
+    Fetches the and returns the records using the given query.
+    #### Syntax
+    ```php
+       $expectedResponse = \FluidTech\SpockDataTables\DataTable::of($query, $list_of_columns)
+           ->make();
+    ```
+    * Accepts
+        * `$query` : The base query from which records needs to be fetched.
+        * `$list_of_columns` : An list of column names that needs to be displayed. <br> 
+        <b>Note</b> : The sequence of columns should be the same as specified on the client side.
+        
+    #### Example
+
+    ```php
+    $query = DB::table('users');
+    
+    return \FluidTech\SpockDataTables\DataTable::of($query, [
+            "name", 
+            "phone_number"
+        ])
+        ->make();
+    ```
+
 
 ## License
 
